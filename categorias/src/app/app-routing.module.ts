@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CategoriasComponent } from './categorias/categorias.component';
-import { CategoriasDetalheComponent } from './categorias-detalhe/categorias-detalhe.component';
+import { CategoriaDetalheComponent } from './categorias-detalhe/categorias-detalhe.component';
 import { CategoriaNovaComponent } from './categoria-nova/categoria-nova.component';
 import { CategoriaEditarComponent } from './categoria-editar/categoria-editar.component';
 import { LoginComponent } from './login/login.component';
@@ -32,7 +32,7 @@ const routes: Routes = [
   },
   {
     path: 'categoria-detalhe/:id',
-    component: CategoriasDetalheComponent,
+    component: CategoriaDetalheComponent,
     data:{
       title: 'Lista de Categorias'
     }

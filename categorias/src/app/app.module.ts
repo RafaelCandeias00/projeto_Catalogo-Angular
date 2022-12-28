@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CategoriasComponent } from './categorias/categorias.component';
-import { CategoriasDetalheComponent } from './categorias-detalhe/categorias-detalhe.component';
+import { CategoriaDetalheComponent } from './categorias-detalhe/categorias-detalhe.component';
 import { CategoriaNovaComponent } from './categoria-nova/categoria-nova.component';
 import { CategoriaEditarComponent } from './categoria-editar/categoria-editar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,7 +31,7 @@ import { MenuComponent } from './menu/menu.component';
   declarations: [
     AppComponent,
     CategoriasComponent,
-    CategoriasDetalheComponent,
+    CategoriaDetalheComponent,
     CategoriaNovaComponent,
     CategoriaEditarComponent,
     LoginComponent,
